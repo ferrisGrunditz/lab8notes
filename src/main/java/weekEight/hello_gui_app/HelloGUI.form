@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="weekEight.hello_gui_app.HelloGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="645" height="453"/>
+    </constraints>
+    <properties>
+      <background color="-4509441"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="fdf1d" class="javax.swing.JButton" binding="clickMeButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-907124"/>
+          <text value="Click Me!"/>
+        </properties>
+      </component>
+      <vspacer id="85b9">
+        <constraints>
+          <grid row="1" column="3" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="e2dd6" class="javax.swing.JLabel" binding="firstLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10906881"/>
+          <text value="Random Label :)"/>
+        </properties>
+      </component>
+      <component id="b7d28" class="javax.swing.JCheckBox" binding="coolChampagneJustInCheckBox" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="cool champagne just in case"/>
+        </properties>
+      </component>
+      <component id="80e68" class="javax.swing.JCheckBox" binding="makeSureToHaveCheckBox" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Make sure to have flashlights and spraypaint"/>
+        </properties>
+      </component>
+      <component id="e85aa" class="javax.swing.JCheckBox" binding="vaccuumFloorCheckBox" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Vaccuum Floor"/>
+        </properties>
+      </component>
+      <component id="53130" class="javax.swing.JCheckBox" binding="getSpongebobPuzzleFromCheckBox" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Get Spongebob Puzzle from Mom's House"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
